@@ -1,0 +1,6 @@
+C-::1/S-::1/#[No User]	12-01-2022 12:33:25	TokenAuthenticationFilter.OnAuthorization	ERROR	AUTH_HEADER not found!
+C-::1/S-::1/#[No User]	12-01-2022 12:45:03	TokenAuthenticationFilter.OnAuthorization	ERROR	AUTH_HEADER not found!
+C-127.0.0.1/S-127.0.0.1/#[No User]	12-01-2022 12:47:02	TokenAuthenticationFilter.OnAuthorization	ERROR	You are not authorized! IDX10503: Signature validation failed. Token does not have a kid. Keys tried: '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.

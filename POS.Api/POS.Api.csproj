@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>bd509f92-18c2-4293-9899-a61d9c6bfb23</UserSecretsId>
+  <!--<AspNetCoreHostingModel>OutOfProcess</AspNetCoreHostingModel>
+    <AspNetCoreModuleName>AspNetCoreModule</AspNetCoreModuleName>-->
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
+    <PackageReference Include="Microsoft.AspNet.WebApi.Core" Version="5.2.7" />
+    <PackageReference Include="Microsoft.AspNet.WebPages" Version="3.2.7" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.15.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\POS.BusinessLogic\POS.BusinessLogic.csproj" />
+    <ProjectReference Include="..\POS.DataContext\POS.DataContext.csproj" />
+    <ProjectReference Include="..\POS.Entity\POS.Entity.csproj" />
+    <ProjectReference Include="..\POS.Utility\POS.Utility.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="DataAccess">
+      <HintPath>..\POS.DataContext\bin\Debug\netcoreapp3.1\DataAccess.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+
+</Project>

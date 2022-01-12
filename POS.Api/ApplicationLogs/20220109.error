@@ -1,0 +1,5 @@
+C-::1/S-::1/#[No User]	09-01-2022 09:43:43	HttpExtensions.GetCurrentUser	ERROR	IDX12741: JWT: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' must have three segments (JWS) or five segments (JWE).
+C-::1/S-::1/#[No User]	09-01-2022 09:45:44	HttpExtensions.GetCurrentUser	ERROR	IDX12741: JWT: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' must have three segments (JWS) or five segments (JWE).
+C-::1/S-::1/#[No User]	09-01-2022 10:50:27	BasicInfo.TestExceptionLog	ERROR	Something went wrong.   
+C-::1/S-::1/#[No User]	09-01-2022 10:54:07	BasicInfo.TestExceptionLog	ERROR	Something went wrong.   
+C-::1/S-::1/#[No User]	09-01-2022 10:54:53	BasicInfo.TestExceptionLog	ERROR	Something went wrong.   
